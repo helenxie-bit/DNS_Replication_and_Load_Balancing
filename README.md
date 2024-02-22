@@ -3,13 +3,13 @@ This project aims to develop a DNS system with multiple name servers, employing 
 
 
 # Implement Steps
-## Build DNS Servers
+## Step1: Build DNS Servers
 Build DNS servers using [BIND9](https://bind9.readthedocs.io/en/v9.18.20/index.html) on multiple Virtual Machines, comprising a primary name server and multiple secondary name servers.
 
-## Data Replication
+## Step2: Data Replication
 Replicate data from the primary server to secondary servers by Zone Transfer.
 
-## Load Balance
+## Step3: Load Balance
 Implemente a load balancer utilizing [NGINX](https://www.nginx.com), distributing traffic across servers based on preset rules to proactively defend against DoS attacks.
 
 
